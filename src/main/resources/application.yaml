@@ -1,0 +1,17 @@
+---
+spring:
+  profiles: default
+  application:
+    name: ReviewApplication
+  data:
+    mongodb:
+      dbName: hackathon
+      host: localhost
+      port: 27017
+
+server:
+  port: 9092
+
+logging:
+  level:
+    root: INFO
