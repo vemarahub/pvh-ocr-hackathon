@@ -10,7 +10,7 @@ spring:
       port: 27017
 
 server:
-  port: 9092
+  port: 8080
 
 logging:
   level:
